@@ -76,7 +76,7 @@ common css end
     .navbar .navbar-nav .nav-item .btn {
    
         padding: 1px 26px;
-        background-color: var(--pink);
+        background-image: linear-gradient( #fc37d9, #d41eb2);
         font-family: var(--pfont);
         border-radius: 5px;
         color: #ffffff !important;
@@ -93,7 +93,7 @@ common css end
     .navbar .navbar-nav .nav-item .btn-dark {
     
         padding: 1px 26px;
-        background-color: var(--blue);
+        background-image: linear-gradient( #9d4dfb, #590fc9);
         border-radius: 5px;
         color: #ffffff !important;
         font-weight: normal;
@@ -154,9 +154,11 @@ margin-top: 125px;
    
     line-height: 280px;
     text-align: left;
-    text-shadow: 19px -8px 38px #3e0054;
+    text-shadow: 19px -8px 38px #a0900500;
     
-color: var(--yello);
+    background: -webkit-linear-gradient(#fcb100, #ec9323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 #banner .banner .bg-text p{
@@ -172,7 +174,7 @@ padding-right: 140px;
 #banner .banner .bg-text a{
    margin-left: 27%;
     padding: 11px 26px;
-    background-color: var(--blue);
+    background-image: linear-gradient( #9d4dfb, #590fc9);
     font-family: var(--pfont);
     border-radius: 5px;
     color: #ffffff !important;
@@ -185,7 +187,9 @@ padding-right: 140px;
    margin-bottom: 128px !important;
    box-shadow: #3a0090 0px 6px 0px 0px;
 }
-
+#banner .banner .bg-text a:hover{
+    color: #fc37d9 !important; 
+}
 #related-game{
     background-color: #0b001b;
     padding-bottom: 100px;
@@ -644,6 +648,44 @@ text-align: center;
     font-weight: 600;
     text-align: center;
 }
+#question  .country
+{
+    margin-top: 55px;
+}
+#question  .country .flag-size
+{
+    height: 64px;
+    border-bottom:2px solid rgb(2, 2, 2) ;
+   
+}
+#question  .country .flag-size p
+{
+font-size: 16px;
+color: white;
+font-weight: normal;
+line-height: 50px;
+width: 200px;
+}
+#question  .country .flag-size img
+{
+width: 20px;
+height: 20px;
+margin-top: 19px;
+position: absolute;
+left: 50%;
+
+}
+
+
+#question  .country .flag-size h4
+{
+    font-size: 16px;
+    color: white;
+    font-weight: normal;
+    line-height: 50px;
+margin-left: 214px;
+}
+
 
 
 
@@ -782,10 +824,84 @@ padding-right: 53px;
  line-height: 56px;
 }
 #footer .footer .finish-line{
-    border-top:1px solid #5c16c7 ;
+    border-top:1px solid #290a59 ;
     margin-top: 60px;
- 
+   position: relative;
 }
+
+#footer .footer  .finish-line::after{
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-image: linear-gradient(45deg, #000000, #9c4bfb, #000000 );
+       position: absolute;
+       top: 0;
+       left: 0;
+       animation: run linear 5s;
+       animation-fill-mode: forwards;
+}    
+@keyframes ru{
+    0%{
+        transform: translateX(-20%);
+    }
+  
+  20%{
+    transform: translateX(20%);
+  }
+  40%{
+    transform: translateX(40%);
+  }
+  60%{
+    transform: translateX(60%);
+  }
+  70%{
+    transform: translateX(70%);
+  }
+  80%{
+    transform: translateX(80%);
+  }
+  100%{
+    transform: translateX(100%);
+  }
+}
+
+
+#footer .footer  .finish-line::before{
+    content: '';
+    width: 100px;
+    height: 2px;
+    background-image: linear-gradient(45deg, #000000, #9c4bfb, #000000 );
+       position: absolute;
+       top: 0;
+     right: 0;
+       animation: run2 linear 5s;
+       animation-fill-mode: forwards;
+}    
+@keyframes ru{
+    0%{
+        transform: translateX(-20%);
+    }
+  
+  20%{
+    transform: translateX(20%);
+  }
+  40%{
+    transform: translateX(40%);
+  }
+  60%{
+    transform: translateX(60%);
+  }
+  70%{
+    transform: translateX(70%);
+  }
+  80%{
+    transform: translateX(80%);
+  }
+  100%{
+    transform: translateX(100%);
+  }
+}
+
 #footer .footer .finish-line p{
     font-size: 16px;
     font-family: var(--hfont);
