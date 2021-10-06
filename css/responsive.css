@@ -439,7 +439,7 @@
         color: var(--yello);
         font-weight: normal;
         text-shadow: 19px -8px 38px #3e0054;
-        margin-top: 594px;
+        margin-top: 635px;
     }
     #related-game .related-game .heading {
         text-align: center;
@@ -473,8 +473,23 @@
     }
     #related-game .game-details .game {
      width: 100%;
+     margin-bottom: 30px;
     }
     #related-game .game .overlay a {
         margin-left: 0;
+    }
+    #question .tournament .heading {
+        border-bottom: 3px solid #000000;
+        text-align: center;
+    }
+    #question .question .heading {
+        border-bottom: 3px solid #000000;
+        text-align: center;
+    }
+    #related-game .game .overlay a {
+        margin-left: 38%;
+    }
+    .tournament {
+        margin-bottom: 7px;
     }
 }
