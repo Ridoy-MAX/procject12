@@ -1,0 +1,14 @@
+@media (max-width: 992px){
+    .navbar-toggler {
+        background-color: white;
+        margin-left: 86%;
+        margin-top: -77px;
+    }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+        margin-left: 20%;
+    }
+    .nav-item:hover{
+        background-color: var(--blue);
+    }
+}
