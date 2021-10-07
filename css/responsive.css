@@ -117,10 +117,10 @@
         font-weight: normal;
         font-size: 12px;
         line-height: 18px;
-        padding-right: -11px;
-        text-align: left;
+  
+        
         margin-top: 10px;
-        width: 380px;
+   
     }
     #banner .banner .bg-text a {
         margin-left: 15%;
@@ -386,8 +386,18 @@
 
 
 
-@media (max-width: 992px){
-
+@media (max-width: 570px){
+    #banner {
+        background-color: #150035 !important;
+        padding-bottom: 281px !important;
+    }
+    #banner .banner .bg-text h2 {
+        font-family: var(--hfont);
+        font-weight: normal;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 46px;
+    }
     #banner .banner .bg-text h1 {
         font-family: var(--pfont);
         font-size: 200px;
@@ -397,19 +407,29 @@
         background: -webkit-linear-gradient(#fcb100, #ec9323);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+      
+    }
+    #banner .banner .bg-text{
+        position: relative;
     }
     #banner .banner .bg-text p {
+        position: absolute;
+        top: 88%;
+        left: 10%;
+        width: 330px;
         font-family: var(--hfont);
         font-weight: normal;
         font-size: 15px;
-       text-align: center;
-       
-  margin-left: 13%;
+        text-align: center;
+        margin-right: 0%;
         margin-top: 10px;
-   
+        padding-right: 34px;
     }
-    #banner .banner .bg-text a{
-  margin-left: 37%;
+    #banner .banner .bg-text a {
+        position: absolute;
+        top: 115%;
+        left: 23%;
+        padding: 0px 14px;
     }
     #related-game {
         background-color: #0b001b;
@@ -461,6 +481,21 @@
         background-color: #150035;
          height: 1050px; 
         overflow: hidden;
+    }
+    #question .country .flag-size h4 {
+        font-size: 16px;
+        color: white;
+        font-weight: normal;
+        line-height: 50px;
+        padding-left: 70px;
+       
+    }
+    #question .country .flag-size p {
+        font-size: 16px;
+        color: white;
+        font-weight: normal;
+        line-height: 54px;
+     
     }
     #pricing-plan .pricing-plan {
         background-image: linear-gradient( #9d4dfb, #590fc9);

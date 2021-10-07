@@ -840,9 +840,9 @@ padding-right: 53px;
        animation: run linear 5s;
        animation-fill-mode: forwards;
 }    
-@keyframes ru{
+@keyframes run{
     0%{
-        transform: translateX(-20%);
+        transform: translateX(0%);
     }
   
   20%{
@@ -860,8 +860,11 @@ padding-right: 53px;
   80%{
     transform: translateX(80%);
   }
+  90%{
+    transform: translateX(90%);
+  }
   100%{
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
 }
 
@@ -877,9 +880,9 @@ padding-right: 53px;
        animation: run2 linear 5s;
        animation-fill-mode: forwards;
 }    
-@keyframes ru{
+@keyframes run2{
     0%{
-        transform: translateX(-20%);
+        transform: translateX(0%);
     }
   
   20%{
@@ -897,8 +900,11 @@ padding-right: 53px;
   80%{
     transform: translateX(80%);
   }
+  90%{
+    transform: translateX(90%);
+  }
   100%{
-    transform: translateX(100%);
+    transform: translateX(0%);
   }
 }
 
