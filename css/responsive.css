@@ -1,3 +1,6 @@
+/*========
+large device
+==========*/
 @media (max-width: 992px){
     .navbar-toggler {
         background-color: white;
@@ -384,7 +387,9 @@
 
 
 
-
+/*========
+small device
+==========*/
 
 @media (max-width: 570px){
     #banner {
@@ -527,4 +532,44 @@
     .tournament {
         margin-bottom: 7px;
     }
+}
+
+/*========
+extra small device
+==========*/
+
+@media (max-width: 375px){
+
+#banner .banner .bg-text p {
+   
+   
+
+   width: 100%;
+    font-family: var(--hfont);
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+  
+    margin-top: 10px;
+    padding-right: 66px;
+}
+#banner .banner .bg-text p {
+    position: absolute;
+    top: 88%;
+    left: 0%;
+  padding-left: 45px;
+}
+
+.navbar-toggler {
+    background-color: white;
+    margin-left: 82% !important ;
+    margin-top: -50px;
+}
+#banner .banner .bg-text a {
+    position: absolute;
+    top: 125%;
+    left: 18%;
+    padding: 0px 14px;
+}
+
 }

@@ -840,7 +840,7 @@ padding-right: 53px;
        animation: run linear 20s;
        animation-fill-mode: forwards;
 }    
-@keyframes run{
+@keyframes {
     0%{
         transform: translateX(0%);
     }
@@ -893,7 +893,7 @@ padding-right: 53px;
      
        animation-fill-mode:initial;
 }    
-@keyframes run2{
+@keyframes {
     0%{
         transform: translateX(0%);
     }
