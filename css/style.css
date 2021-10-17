@@ -837,10 +837,10 @@ padding-right: 53px;
        position: absolute;
        top: 0;
        left: 0;
-       animation: run linear 20s;
+       animation: run linear 15s;
        animation-fill-mode: forwards;
 }    
-@keyframes {
+@keyframes run{
     0%{
         transform: translateX(0%);
     }
@@ -889,11 +889,11 @@ padding-right: 53px;
        position: absolute;
        top: 0;
      right: 0;
-       animation: run2 linear 20s;
+       animation: run2 linear 15s;
      
        animation-fill-mode:initial;
 }    
-@keyframes {
+@keyframes run2{
     0%{
         transform: translateX(0%);
     }
